@@ -192,8 +192,9 @@ footer{
 }
 .start{
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 .logoss{
     width: 50px;
@@ -201,7 +202,13 @@ footer{
 }
 .contact-wrapper{
     display: flex;
+    gap: 30px;
     flex-wrap: wrap;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
