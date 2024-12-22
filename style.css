@@ -1,0 +1,264 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-img{
+    width: 80px;
+    border-radius: 100%;
+}
+.nav-child{
+    text-decoration: none;
+    margin-left: 15px;
+    text-transform: uppercase;
+    color: #333333;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-h1{
+    color: #000000;
+    font-size: 64px;
+    font-weight: 700;
+
+
+}
+.hero-p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+.hero-button{
+    padding: 16px 24px;
+    background-color: #0A775F;
+    color: #FFFFFF;
+    border-radius: 100px;
+    border-color: transparent;
+    text-transform: uppercase;
+}
+.hero-right-img{
+    width: 550px;
+    border-radius: 10px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+.wrapper-all{
+    background-color:#F3D7B7;
+    width: 100vw;
+    height: 100%;
+}
+.second-page{
+    background-color: #F8F8F2;
+
+
+}
+.wrapper-img{
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+    flex-wrap: wrap-reverse;
+
+}
+.second-page-h2{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+.logo{
+    width: 200px;
+}
+.second-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.second-page-h3{
+    color: #333333;
+    font-size: 48px;
+    font-weight: 550;
+}
+.logo-p{
+    font-size: 22px;
+    font-weight: 400;
+
+}
+.css{
+    width: 250px;
+}
+.wrapper-all2{
+    padding-bottom: 40px;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-3-h3{
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.section3-p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.page-3{
+    background-color: #C99B67;
+}
+.ietls-logo{
+    width: 400px;
+}
+.logo-h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.logo-child{
+    display: flex;
+    flex-direction: column;
+    
+}
+.wrapper-logos{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cefr{
+    width: 600px;
+}
+.footer{
+    background-color: #F3D7B7;
+
+}
+.footer-link{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+footer{
+    padding-top: 30px;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    padding-bottom: 20px;
+    
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.logoss{
+    width: 50px;
+    border-radius: 100%;
+}
+.contact-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+@media(max-width:450px) {
+    .nav-child{
+        display: none;
+    }
+    .hero-h1{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .hero-button{
+        margin-left: 30px;
+    }
+    .header-img{
+        margin-left: 70px;
+    }
+    .hero-right-img{
+        width: 300px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .hero-p{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .second-page-h2{
+        text-align: start;
+        margin-left: 10px;
+    }
+    .second-page-h3{
+        font-size: 40px;
+        text-align: center;
+    }
+    .logo-p{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .logo{
+        width: 150px;
+        margin-left: 40px;
+    }
+    .section-3-h3{
+        font-size: 25px;
+    }
+    .logo-h3{
+        font-size: 22px;
+    }
+    .ietls-logo{
+        width: 200px;
+        margin-left: 40px;
+    }
+    .contact-wrapper{
+        margin-left: 10px;
+    }
+    .start{
+        text-align: center;
+    }
+}
