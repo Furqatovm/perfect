@@ -7,7 +7,7 @@
     width: 80px;
     border-radius: 100%;
 }
-.nav-child{
+#nav-child{
     text-decoration: none;
     margin-left: 15px;
     text-transform: uppercase;
@@ -30,6 +30,12 @@ header{
     flex-direction: column;
     gap: 30px;
 }
+.hero-right{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+}
 .hero-h1{
     color: #000000;
     font-size: 64px;
@@ -50,10 +56,17 @@ header{
     border-color: transparent;
     text-transform: uppercase;
 }
-.hero-right-img{
-    width: 550px;
+#menu{
+    width: 100px;
+}
+#hero-right-img,#menabduvali, #men_iphone, #men_ozim{
+    width: 400px;
     border-radius: 10px;
 }
+#right-aray, .right-images, #hero-right-button{
+    width: 50px;
+}
+
 .hero{
     display: flex;
     justify-content: space-between;
