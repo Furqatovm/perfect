@@ -31,16 +31,3 @@ tugma2.addEventListener("click", function (){
 let elements = document.getElementById("nav-child");
 let nav =document.querySelector("nav");
 elements.style.display ="none";
-
-
-
-let btn =document.getElementById("menu");
-
-btn.addEventListener("click", function(){
-    elements.style.display ="block"
-})
-
-btn.addEventListener("dblclick", function(){
-    elements.style.display ="none";
-    btn.style.display ="block"
-})
