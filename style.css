@@ -63,7 +63,7 @@ header{
     width: 400px;
     border-radius: 10px;
 }
-#right-aray, .right-images, #hero-right-button{
+#right-aray, #right-images, #hero-right-button{
     width: 50px;
 }
 
