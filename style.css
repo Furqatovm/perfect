@@ -281,4 +281,10 @@ footer{
     .start{
         text-align: center;
     }
+    #hero-right-img {
+        width: 200px;
+    }
+    #hero-right-img,#menabduvali, #men_iphone, #men_ozim{
+     width: 40px;
+    }
 }
