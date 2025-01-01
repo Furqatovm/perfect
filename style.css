@@ -163,6 +163,7 @@ header{
     padding-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
+    color: #FFFFFF;
     
 }
 .logo-child{
@@ -224,67 +225,61 @@ footer{
     align-items: center;
 }
 
+.nav-child:hover{
+    opacity: 70%;
+    border-bottom: 2px solid #333333;
+}
+#hero-right-img:hover, #menabduvlai:hover,#men_iphone:hover, #men_ozim:hover {
+    transform: scale(1.1);
+} #right-images:hover{
+    transform: scale(1.1);
+} 
+#right-aray:hover{
+    transform: scale(1.1);
+}
+img:hover{
+    transform: scale(1.1);
+}
 
 
-@media(max-width:450px) {
-    .nav-child{
+
+@media(max-width:768px) {
+    nav {
         display: none;
-    }
-    .hero-h1{
-        font-size: 30px;
-        margin-left: 10px;
-    }
-    .hero-button{
-        margin-left: 30px;
-    }
-    .header-img{
-        margin-left: 70px;
-    }
-    .hero-right-img{
+    }.hero{
+        flex-direction: column;
+    }#hero-right-img{
         width: 300px;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-    .hero-p{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .second-page-h2{
-        text-align: start;
-        margin-left: 10px;
-    }
-    .second-page-h3{
-        font-size: 40px;
+    }.hero-left{
         text-align: center;
+    }.logo{
+        width: 180px;
+    }.wrapper-img{
+        flex-direction: column;
+    } .wrapper-img-wrap{
+        flex-direction: column;
+    } .wrapper-logos{
+        flex-direction: column;
+        align-items: center;
+    } .ietls-logo{
+        width: 290px;
+        text-align: center;
+        
     }
-    .logo-p{
-        font-size: 20px;
-        margin-left: 10px;
-    }
-    .logo{
-        width: 150px;
-        margin-left: 40px;
-    }
-    .section-3-h3{
-        font-size: 25px;
-    }
-    .logo-h3{
-        font-size: 22px;
-    }
-    .ietls-logo{
-        width: 200px;
-        margin-left: 40px;
+    footer{
+        flex-direction: column;
     }
     .contact-wrapper{
-        margin-left: 10px;
+        flex-direction: column;
+
+    } .start{
+        flex-direction: column;
+        margin-bottom: 10px;
+    } .logoss{
+        width: 60px;
+    } header{
+        flex-direction: column;
+        align-items: center;
     }
-    .start{
-        text-align: center;
-    }
-    #hero-right-img {
-        width: 200px;
-    }
-    #hero-right-img,#menabduvali, #men_iphone, #men_ozim{
-     width: 40px;
-    }
+
 }
