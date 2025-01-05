@@ -230,18 +230,13 @@ a:hover{
 .nav-child:hover{
     opacity: 70%;
     border-bottom: 2px solid #333333;
-}
-#hero-right-img:hover, #menabduvlai:hover,#men_iphone:hover, #men_ozim:hover {
-    transform: scale(1.1);
 } #right-images:hover{
     transform: scale(1.1);
 } 
 #right-aray:hover{
     transform: scale(1.1);
 }
-img:hover{
-    transform: scale(1.1);
-}
+
 
 
 
@@ -250,8 +245,6 @@ img:hover{
         display: none;
     }.hero{
         flex-direction: column;
-    }#hero-right-img{
-        width: 300px;
     }.hero-left{
         text-align: center;
     }.logo{
